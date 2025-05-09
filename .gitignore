@@ -15,4 +15,9 @@ wheels/
 
 # User generated regression files
 *.regression.*
+*.submission.*
+
+# Large datasets
+fair_mast_data/plasma_equilibrium/train.nc
+fair_mast_data/plasma_equilibrium/test.nc
 
