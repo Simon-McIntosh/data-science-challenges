@@ -1,0 +1,18 @@
+[project]
+name = "data-science-challenges"
+version = "0.1.0"
+description = "Data science challenges using Fusion data from MAST"
+readme = "README.md"
+license = { text = "CC-BY-SA-4.0" }
+requires-python = ">=3.11"
+dependencies = [
+    "jupyterlab>=4.4.2",
+    "matplotlib>=3.10.3",
+    "netcdf4>=1.7.2",
+    "numpy>=2.2.5",
+    "pandas>=2.2.3",
+    "pillow>=11.2.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "xarray>=2025.4.0",
+]
