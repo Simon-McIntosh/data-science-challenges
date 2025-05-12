@@ -85,7 +85,6 @@ Find sample data in the `fair_mast_data` directory. For more data:
 
 1. Visit the [Fair-MAST Data Catalog](https://mastapp.site/)
 2. Use the provided API to access the complete FAIR-MAST archive
-3. **TODO** See data access notebook for more details
 
 ## License
 
