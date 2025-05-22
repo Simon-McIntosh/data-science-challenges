@@ -42,7 +42,7 @@ The data used in this project comes from the FAIR-MAST project, which aims to ma
 3. Install [uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer) if you don't have it already
 
    ```bash
-   pipx install uv
+   pip install uv
    ```
 
 4. Create a virtual environment and install dependencies using uv
