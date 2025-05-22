@@ -1,9 +1,9 @@
 [project]
 name = "data-science-challenges"
-version = "0.1.0"
+version = "0.2.0"
 description = "Data science challenges using Fusion data from MAST"
 readme = "README.md"
-license = { text = "CC-BY-SA-4.0" }
+license = "CC-BY-SA-4.0"
 requires-python = ">=3.11"
 dependencies = [
     "aiohttp>=3.11.18",
@@ -17,9 +17,16 @@ dependencies = [
     "pillow>=11.2.1",
     "pyarrow>=20.0.0",
     "requests>=2.32.3",
+    "s3fs>=2025.3.2",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
     "xarray>=2025.4.0",
     "zarr>=3.0.7",
 ]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["notebooks", "fair_mast_data", "media"]
