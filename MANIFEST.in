@@ -1,0 +1,8 @@
+# Include package data files
+recursive-include data_science_challenges/fair_mast_data *.csv *.nc *.pkl *.gif *.sol
+recursive-include data_science_challenges/media *.png *.gif *.jpg *.jpeg
+recursive-include data_science_challenges/notebooks *.ipynb
+
+# Include documentation
+include README.md
+include LICENSE

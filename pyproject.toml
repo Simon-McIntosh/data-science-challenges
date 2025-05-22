@@ -25,8 +25,12 @@ dependencies = [
     "zarr>=3.0.7",
 ]
 
-[tool.setuptools]
-include-package-data = true
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.setuptools.packages.find]
-include = ["notebooks", "fair_mast_data", "media"]
+[tool.hatch.build]
+packages = ["data_science_challenges"]
+include = [
+    "data_science_challenges/plasma_current/*.csv",
+]

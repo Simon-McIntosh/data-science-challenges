@@ -25,6 +25,8 @@ The data used in this project comes from the FAIR-MAST project, which aims to ma
 
 ### Installation
 
+#### Local Installation
+
 1. Clone the repository
 
    ```bash
@@ -59,6 +61,25 @@ The data used in this project comes from the FAIR-MAST project, which aims to ma
    # On Unix or MacOS
    source .venv/bin/activate
    ```
+
+#### Google Colab Setup
+
+If you're using Google Colab to run the notebooks, you can install this package directly:
+
+1. **Using UV (Recommended)**
+
+   ```python
+   !pip install uv
+   !uv pip install git+https://github.com/Simon-McIntosh/data-science-challenges.git
+   ```
+
+2. **Using Pip**
+
+   ```python
+   !pip install git+https://github.com/Simon-McIntosh/data-science-challenges.git
+   ```
+
+3. After installation, restart your runtime for all changes to take effect by clicking on the "Runtime" menu and selecting "Restart runtime".
 
 ## Usage
 
