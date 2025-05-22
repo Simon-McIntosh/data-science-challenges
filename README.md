@@ -62,7 +62,7 @@ The data used in this project comes from the FAIR-MAST project, which aims to ma
    source .venv/bin/activate
    ```
 
-#### Google Colab Setup
+#### Google Colab Setup (for the Plasma Current notebook)
 
 If you're using Google Colab to run the notebooks, you can install this package directly:
 
