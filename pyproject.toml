@@ -1,6 +1,6 @@
 [project]
 name = "data-science-challenges"
-version = "0.2.0"
+version = "0.3.0"
 description = "Data science challenges using Fusion data from MAST"
 readme = "README.md"
 license = "CC-BY-SA-4.0"
