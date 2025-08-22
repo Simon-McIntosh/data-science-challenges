@@ -9,13 +9,12 @@ This project contains a number of Jupyter notebooks designed to introduce studen
 The notebooks focus on:
 
 - Data exploration and visualization of fusion parameters
-- Statistical analysis of experimental results
 - Predictive modeling of key fusion performance indicators
 - Machine learning applications in fusion research
 
 ## Data Source
 
-The data used in this project comes from the Fair-MAST project, which aims to make fusion research data more Findable, Accessible, Interoperable, and Reusable (FAIR). The MAST (Mega Amp Spherical Tokamak) is a fusion energy experiment based at Culham Centre for Fusion Energy in the UK.
+The data used in this project comes from the FAIR-MAST project, which aims to make fusion research data more Findable, Accessible, Interoperable, and Reusable (FAIR). The MAST (Mega Amp Spherical Tokamak) is a fusion energy experiment based at Culham Centre for Fusion Energy in the UK.
 
 ## Getting Started
 
@@ -25,6 +24,8 @@ The data used in this project comes from the Fair-MAST project, which aims to ma
 - [uv](https://github.com/astral-sh/uv) - A faster and more reliable Python package installer and resolver
 
 ### Installation
+
+#### Local Installation
 
 1. Clone the repository
 
@@ -38,7 +39,7 @@ The data used in this project comes from the Fair-MAST project, which aims to ma
    cd data-science-challenges
    ```
 
-3. Install uv if you don't have it already
+3. Install [uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer) if you don't have it already
 
    ```bash
    pip install uv
@@ -61,6 +62,25 @@ The data used in this project comes from the Fair-MAST project, which aims to ma
    source .venv/bin/activate
    ```
 
+#### Google Colab Setup (for the Plasma Current notebook)
+
+If you're using Google Colab to run the notebooks, you can install this package directly:
+
+1. **Using UV (Recommended)**
+
+   ```python
+   !pip install uv
+   !uv pip install git+https://github.com/Simon-McIntosh/data-science-challenges.git
+   ```
+
+2. **Using Pip**
+
+   ```python
+   !pip install git+https://github.com/Simon-McIntosh/data-science-challenges.git
+   ```
+
+3. After installation, restart your runtime for all changes to take effect by clicking on the "Runtime" menu and selecting "Restart runtime".
+
 ## Usage
 
 ### Running Jupyter Notebooks
@@ -76,8 +96,8 @@ This will open a browser window with the Jupyter interface where you can select 
 ### Available Notebooks
 
 1. **MAST Plasma Current** - Infer the value plasma current produced by CCFE's Mega Ampere Spherical Tokamak from discrete magnetic diagnostic data.
-2. **MAST Plasma Volume** - Infer plasma volume from camera data.
-3. **MAST Plasma Equilibrium** - Infer plasma equilibria from diagnostic measurements.
+2. **MAST Plasma Volume** - Infer plasma volume from wide angle camera data.
+3. **MAST Plasma Equilibrium** - Infer plasma equilibria from a diverse set of diagnostic data.
 
 ### Accessing Fair-MAST Data
 

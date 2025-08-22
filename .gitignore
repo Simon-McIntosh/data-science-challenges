@@ -19,9 +19,9 @@ wheels/
 **/solution.csv
 
 # Large datasets
-fair_mast_data/plasma_equilibrium/train.nc
-fair_mast_data/plasma_equilibrium/test.nc
+**/fair_mast_data/plasma_equilibrium/train.nc
+**/fair_mast_data/plasma_equilibrium/test.nc
 
-fair_mast_data/plasma_volume/test.nc
-fair_mast_data/plasma_volume/train.nc
-fair_mast_data/plasma_volume/camera_data.pkl
+**/fair_mast_data/plasma_volume/test.nc
+**/fair_mast_data/plasma_volume/train.nc
+**/fair_mast_data/plasma_volume/camera_data.pkl
